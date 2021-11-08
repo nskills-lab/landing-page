@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: Quantico;
+    min-height: 100vh;
 }
 
 .hero-section {
@@ -27,7 +28,7 @@ body {
     width: 14%;
     padding: 5px;
     border-radius: 10%;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 #header-links {
@@ -64,8 +65,8 @@ body {
 }
 
 #site-img>img {
-    width: 400px;
-    height: 200px;
+    width: 450px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10%;
 }
@@ -76,8 +77,12 @@ body {
 }
 
 button {
-    background-color: #3882F6;
+    background-color: black;
     color: #E5E7EB;
+    font-family: Quantico;
+    margin-top: 5px;
+    width: 100px;
+    border-radius: 8px;
 }
 
 ul {
@@ -88,17 +93,99 @@ ul {
 
 a {
     text-decoration: none;
-    color: #1F2937;
+    color: #E5E7EB;
     font-size: 18px;
 }
 
 .content {
-    background-color: grey;
-    height: 200px;
+    flex-grow: 2;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .footer {
     background-color: #1F2937;
     height: 52px;
+}
+
+.specials {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+#specials-items {
+    background-color: white;
+    flex: 1;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+}
+
+#quotes {
+    background-color: rgb(204, 197, 197);
+    flex: 1;
+}
+
+#cta-container {
+    background-color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.special-item {
+    border: black;
+    max-width: 200px;
+}
+
+.special-item>img {
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.special-title {
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: bold;
+    align-self: center;
+    padding-bottom: 30px;
+}
+
+.special-text {
+    text-align: left;
+}
+
+#quotes {
+    font-size: 36px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    text-align: center;
+    font-style: italic;
+    font-weight: light;
+}
+
+#cta-content {
+    width: 600px;
+    height: 100px;
+    display: flex;
+    background-color: #75869e;
+    color: #E5E7EB;
+    align-self: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+#cta-button {
+    height: 30px;
 }
