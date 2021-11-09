@@ -28,7 +28,6 @@ body {
     width: 14%;
     padding: 5px;
     border-radius: 10%;
-    opacity: 0.9;
 }
 
 #header-links {
@@ -43,6 +42,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 50px;
+    color: #E5E7EB;
 }
 
 .site-desc {
@@ -52,7 +52,6 @@ body {
 
 #info-title {
     font-size: 48px;
-    color: #E5E7EB;
     font-weight: bold;
 }
 
@@ -72,17 +71,16 @@ body {
 }
 
 #info-desc {
-    color: #E5E7EB;
     font-size: 18px;
 }
 
 button {
     background-color: black;
-    color: #E5E7EB;
     font-family: Quantico;
     margin-top: 5px;
     width: 100px;
     border-radius: 8px;
+    color: #E5E7EB;
 }
 
 ul {
@@ -111,7 +109,6 @@ a {
 }
 
 .specials {
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -128,7 +125,7 @@ a {
 }
 
 #quotes {
-    background-color: rgb(204, 197, 197);
+    background-color: rgb(236, 190, 74);
     flex: 1;
 }
 
@@ -167,25 +164,45 @@ a {
 }
 
 #quotes {
-    font-size: 36px;
+    font-size: 30px;
     background-color: #E5E7EB;
     color: #1F2937;
     text-align: center;
     font-style: italic;
     font-weight: light;
+    padding: 30px;
 }
 
 #cta-content {
-    width: 600px;
-    height: 100px;
+    width: 900px;
+    height: 80px;
     display: flex;
     background-color: #75869e;
     color: #E5E7EB;
     align-self: center;
-    justify-content: space-between;
-    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    border-radius: 8px;
 }
 
 #cta-button {
     height: 30px;
+}
+
+#cta-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#cta-text {
+    font-style: italic;
+    font-weight: light;
+    font-size: 13px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
