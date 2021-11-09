@@ -15,4 +15,6 @@ Special thanks to the creators of the beautiful images I used to build this web 
 * Vegetable Frittata image: Photo by <a href="https://unsplash.com/@anshu18?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anshu A</a> on <a href="https://unsplash.com/s/photos/vegetable-frittata?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 * Gift card image: Photo by <a href="https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jess Bailey</a> on <a href="https://unsplash.com/s/photos/gift-card?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+[Check out this live preview](https://nskills-lab.github.io/landing-page/)
   
