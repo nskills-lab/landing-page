@@ -9,7 +9,7 @@ body {
 .hero-section {
     display: flex;
     flex-direction: column;
-    background-image: url("../../images/drew-coffman-jUOaONoXJQk-unsplash.jpg");
+    background-image: url("/images/coffee-shop-hero-section-unsplash.jpg");
     background-size: cover;
 }
 
