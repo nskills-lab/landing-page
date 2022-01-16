@@ -1,3 +1,8 @@
+:root {
+    --font-size: 30px;
+    --padding: 30px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -79,8 +84,16 @@ button {
     font-family: Quantico;
     margin-top: 5px;
     width: 100px;
+    height: 25px;
     border-radius: 8px;
     color: #E5E7EB;
+    border: none;
+}
+
+button:hover,
+button:focus {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 20%);
 }
 
 ul {
@@ -152,11 +165,11 @@ a {
 }
 
 .special-title {
-    font-size: 30px;
+    font-size: var(--font-size);
     color: #1F2937;
     font-weight: bold;
     align-self: center;
-    padding-bottom: 30px;
+    padding-bottom: var(--padding);
 }
 
 .special-text {
@@ -164,13 +177,13 @@ a {
 }
 
 #quotes {
-    font-size: 30px;
+    font-size: var(--font-size);
     background-color: #E5E7EB;
     color: #1F2937;
     text-align: center;
     font-style: italic;
     font-weight: light;
-    padding: 30px;
+    padding: var(--padding);
 }
 
 #cta-content {
