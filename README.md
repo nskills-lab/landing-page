@@ -4,7 +4,7 @@ I created an entire web page for a fictional coffee shop.
 
 ![Coffee shop landing page](./images/preview-image.png)
 
-Based on [The Odin Project's](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page) assignment.
+Based on The Odin Project's assignment.
 
 Special thanks to the creators of the beautiful images I used to build this web page:
 
